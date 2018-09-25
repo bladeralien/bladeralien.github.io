@@ -4,7 +4,7 @@ title:  "线性代数笔记-向量"
 date:   2018-09-15 15:01:30 +0800
 categories: jekyll update
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 
 ![avatar](https://raw.githubusercontent.com/bladeralien/bladeralien.github.io/master/_posts/2018-09-15-linear-algebra-vector-PICTURE-0.PNG)
 
@@ -31,3 +31,7 @@ $$\frac{r{\cdot}s}{|r|{\times}|r|}{\cdot}r$$
 显然，上述公式亦可以写为
 
 $$\frac{r{\cdot}s}{r{\cdot}r}{\cdot}r$$
+
+上述公式可以应用在坐标系转换上，假设我们有\\(e\\)和\\(b\\)两个坐标系，其基础向量分别为\\(e_1, e_2\\)和\\(b_1, b_2\\)，如果我们知道\\(b_1\\)及\\(b_2\\)在\\(e\\)坐标系中的坐标，那么，我们就可以根据一个向量\\(v\\)在\\(e\\)坐标系中的坐标获得其在\\(b\\)坐标系中的坐标，前提是\\(b\\)坐标系中的基础向量是正交的。
+
+当然，如果\\(b\\)坐标系中的基础向量不是正交的话，就需要用到矩阵相关的知识了。
